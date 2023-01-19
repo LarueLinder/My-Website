@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
 
-#customize the emoji later under page icon
+
 st.set_page_config(page_title="My Webpage", page_icon=":tada;",layout = "wide")
 
 def load_lottieurl(url):
@@ -23,14 +23,13 @@ lottie_coding = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_XM
 
 ##  -- header section --
 with st.container():
-    #customize the wave emjoi to something else later
+    
     st.subheader("HI, I am Larue Linder 💻")
     st.title("I am a Computer Science and Financial Economics Student") # at Johns Hopkins University.")
     st.write("Education: Johns Hopkins University")
     #here do the languages proficient in 
     st.write("Languages: Java, Python, C++, R")
-    #then do a dropdowon "more about me" and mention student athlete and other passions
-    #have a link to my linkedin and github
+
     #st.write("[LinkedIn >](www.linkedin.com/in/larue-linder)")
     st.write("[Github >](https://github.com/LarueLinder)")
 
@@ -94,9 +93,6 @@ with st.container():
         """
     )
     
-    ##ogranice my projects and stuff here 
-    #maybe put github again here
-    #see if theres a way to display a pdf on website -- or copy paste resume
 
 # -- contact -- 
 st.write("---")
@@ -105,4 +101,4 @@ st.write("Email: laruelinder77@gmail.com ")
 st.write("LinkedIn: www.linkedin.com/in/larue-linder")
 st.write("Twitter: LarueLinder_")
 
-##maybe add linkedin see where it  goes best
+
